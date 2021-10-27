@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  background-color: black;
+  position: relative;
+  width: 90vw;
+  height: 90vh;
+}
+
+.cell {
+  position: absolute;
+  background-color: white;
+  border: solid 1px green;
+  border-radius: 1px;
+  height: 16px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputField {
+  text-align: center;
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  font-size: 12px;
+}
+
+.dellButton {
+  cursor: pointer;
+  position: absolute;
+  right: -6px;
+  top: -6px;
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border: red solid 1px;
+  border-radius: 50%;
+  font-size: 4px;
+  color: red;
+  text-align: center;
+  line-height: 12px;
+}
